@@ -1,0 +1,53 @@
+input[type=time] {
+    background-color:transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: helvetica;
+    height: 50px;
+    width: 130px;
+}
+
+/* Wrapper around the hour, minute, second, and am/pm fields as well as 
+the up and down buttons and the 'X' button */
+input[type=time]::-webkit-datetime-edit-fields-wrapper {
+    display: flex;
+}
+
+/* The space between the fields - between hour and minute, the minute and 
+second, second and am/pm */
+input[type=time]::-webkit-datetime-edit-text {
+    padding: 0px 4px;
+}
+
+input[type=time]::-webkit-datetime-edit-hour-field {
+    text-align: center;
+    background-color: #0041bb;
+    width: 30px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+input[type=time]::-webkit-datetime-edit-minute-field {
+    text-align: center;
+    background-color: #0041bb;
+    width: 30px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+input[type=time]::-webkit-clear-button,
+input[type=time]::-webkit-inner-spin-button {
+    display: block;
+}
+
+.tmClass::-webkit-calendar-picker-indicator {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 100px;
+    top: 30px;
+    background-image: url("../img/clock_white.png");
+}

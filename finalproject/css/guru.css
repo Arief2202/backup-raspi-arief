@@ -1,0 +1,135 @@
+body{
+    background: darkslategray;
+}
+.styled-table {
+    color: white;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.5)
+    /* Black w/opacity/see-through */
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    text-align: center;
+    /* border-right: 1px solid #ddd; */
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Black w/opacity/see-through */
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+.transparent-button {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: transparent;
+    /* padding: 30px 20px; */
+    cursor: pointer;
+    /* border-radius: 5px; */
+    float: right;
+}
+
+.nameNav{
+    font-size: 20px;
+}
+.classNav{
+    font-size: 15px;
+}
+
+.logoutButton{
+    text-decoration: none;
+}
+
+.cardName{  
+  font-weight: bold;
+  background: darkred;
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.photoMid{
+    text-align: center;
+    /* width: 30%;
+    height: 30%; */
+}
+
+.midImg{
+    width: 150px;
+    height: 150px;
+}
+
+.myImg{
+    /* display: none; */
+    background-repeat: no-repeat;
+    background-size: 80px 60px;
+    background-position: center;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    border-radius: 100%;
+}
+.myImg:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+    background-image: url(../img/photo.png);
+}
+
+.cardHeaderText{
+    text-align: center;
+    font-weight: bold;    
+}
+
+.cardHeaderEditBtn{
+    position:absolute;
+    text-decoration: none;
+    right:-25px;
+    top:25px;
+    width: 80px;
+    transform: translate(-50%, -50%);
+}
+.cardHeaderEditBtn:hover{
+    text-decoration: none;
+}
+
+.userInput{
+    height: 22px;
+    font-size: 15px;
+}
+
+.checkBtn{
+    position: absolute;
+    left: 0px;
+    font-size: 15px;
+    width: 150px;
+}

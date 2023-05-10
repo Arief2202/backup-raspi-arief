@@ -1,0 +1,606 @@
+/* 
+@media screen and (max-width: 1100px) {
+    #text1{
+        top: 48%;
+        left: 48%;
+    }
+    #text2{
+        top: 49%;
+        left: 49%;
+    }
+    #text3 {
+        top: 50%;
+        left: 50%;
+    }
+    .title p{
+        font-size: 1.5em;
+    }
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    position: absolute;
+}
+.banner{
+    position: relative;
+    width: 100%;
+    height: 115vh;
+    justify-content: center;
+    align-items: center ;
+}
+.banner .Title{
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 80%;
+    padding: 0;
+}
+.banner .Title h1{
+    font-weight: 600;
+}
+.banner img{
+    position: relative;
+    width: 70%;
+    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 50%;
+}
+/* #Text1 {
+    font-size: 6em;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 40%;
+}
+#Text2 {
+    font-size: 6em;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 49%;
+    top:39%;
+    opacity: 40%;
+}
+#Text3 {
+    font-size: 6em;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 49.5%;
+    top: 39.5%;
+    opacity: 40%;
+} */
+
+/* .banner .Title p{
+    position: absolute;
+    font-weight: 600;
+    font-size: 1.8em;
+    transform: translate(-50%,-50%);
+    top: 55%;
+    left: 50%;
+    text-shadow: 2px 5px 10px black;
+} */
+
+.loginc {
+    position: relative;
+    top: 30%;
+}
+.loginbutton {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 68%;
+    left: 50%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px 80px;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight:700;
+    letter-spacing:2px;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.644);
+}   
+
+.loginbutton:hover{
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0)
+}
+
+
+@media screen and (max-width: 1050px) {
+
+    .loginbutton{
+        top: 65%;
+        font-size: 1em;
+        padding: 10px 50px;
+        font-weight:700;
+        letter-spacing:2px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .loginc {
+        position: relative;
+        top: 35%;
+    }   
+    .loginbutton{
+        top: 60%;
+        font-size: 1em;
+        padding: 10px 50px;
+        font-weight:700;
+        letter-spacing:2px;
+    }  
+}
+@media screen and (max-width: 600px) {
+    .loginbutton{
+        top: 60%;
+        font-size: 0.7em;
+        padding: 10px 50px;
+        font-weight:700;
+        letter-spacing:2px;
+    }  
+}
+@media screen and (max-width: 500px) {
+    .loginc {
+        position: relative;
+        top: 40%;
+    }
+    .loginbutton{
+        top: 60%;
+        font-size: 0.7em;
+        padding: 10px 50px;
+        font-weight:700;
+        letter-spacing:2px;
+    }  
+}
+
+.Content1{
+    position: relative;
+    width: 100%;
+    height: 85vh;
+    background: rgb(0, 98, 255);
+    padding: 200px 150px;
+}
+/* .banner::before{
+    content:'';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background:linear-gradient(to top,rgb(0, 98, 255), transparent);
+} */
+.Content1 .Content{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 40vh;
+}
+.Content1 .Content img{
+    position:relative;
+    top: -100px;
+    max-width: 400px;
+}
+.Content1 .Content div{
+    position: relative;
+    top: -20%;
+    padding: 50px;
+    color: white;
+    margin-left: 15vh;
+}
+.Content1 .Content div h1{
+    font-weight: 600;
+    font-size: 4em;
+}
+.Content1 .Content div p{
+    font-weight: 100;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+.Content2 .Content img{
+    position:relative;
+    top: -100px;
+    max-width: 300px;
+}
+.Content2{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background: rgb(153, 0, 255);
+    padding: 200px 150px;
+}
+.Content1::before{
+    content:'';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background:linear-gradient(to top,rgb(153, 0, 255), transparent);
+}
+.Content2 .Content{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 40vh;
+}
+.Content2 .Content div{
+    position: relative;
+    top: -40%;
+    padding: 90px;
+    color: white;
+    margin-left: -15vh;
+}
+.Content2 .Content div h1{
+    font-weight: 600;
+    font-size: 4em;
+}
+.Content2 .Content div p{
+    font-weight: 100;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+.Content3{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: rgb(0, 98, 255);
+    padding: 200px 150px;
+}
+.Content3::after{
+    content:'';
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background:linear-gradient(to bottom,rgb(153, 0, 255), transparent);
+}
+.Content3 .Content{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 50vh;
+}
+.Content3 .Content img{
+    position:relative;
+    top: -20px;
+    max-width: 400px;
+}
+.Content3 .Content div{
+    position: relative;
+    top: -20%;
+    padding: 50px;
+    color: white;
+    margin-left: 6vh;
+}
+.Content3 .Content div h1{
+    font-weight: 600;
+    max-width: 400px;
+    font-size: 4em;
+}
+.Content3 .Content div p{
+    font-weight: 100;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+@media screen and (max-width: 990px){
+    .Content1{
+        flex-direction: column;
+        padding: 200px 90px;
+    }
+    .Content1 .Content img{
+        max-width: 300px;
+    }
+    .Content1 .Content div{
+        top: -30%;
+        padding: 10px;
+    }
+    .Content1 .Content div h1{
+        font-size: 3.5em;
+    }
+    .Content1 .Content div p{
+        font-size: 1.0em;
+    }
+    .Content2{
+        flex-direction: column;
+        padding: 200px 90px;
+    }
+    .Content2 .Content img{
+        max-width: 250px;
+    }
+    .Content2 .Content div{
+        top: -40%;
+        padding: 20px;
+        margin-left: 5%;
+    }
+    .Content2 .Content div h1{
+        font-size: 3.5em;
+    }
+    .Content2 .Content div p{
+        font-size: 1.0em;
+    }
+    .Content3{
+        flex-direction: column;
+        padding: 200px 90px;
+    }
+    .Content3 .Content img{
+        max-width: 300px;
+    }
+    .Content3 .Content div{
+        top: -10%;
+        padding: 20px;
+        margin-left: 5%;
+    }
+    .Content3 .Content div h1{
+        font-size: 3.5em;
+        max-width: 200px;
+    }
+    .Content3 .Content div p{
+        font-size: 1.0em;
+    }
+    
+}
+
+@media screen and (max-width: 760px){
+    .Content1 .Content img{
+        max-width: 280px;
+    }
+    .Content1 .Content div{
+        top: -30%;
+        padding: 0px;
+    }
+    .Content1 .Content div h1{
+        font-size: 3em;
+    }
+    .Content2 .Content img{
+        max-width: 220px;
+    }
+    .Content2 .Content div{
+        top: -50%;
+        padding: 0px;
+    }
+    .Content2 .Content div h1{
+        font-size: 3em;
+    }
+    .Content3 .Content img{
+        max-width: 280px;
+    }
+    .Content3 .Content div{
+        top: -10%;
+        padding: 0px;
+    }
+    .Content3 .Content div h1{
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 700px ){
+    .Content1{
+        height: 110vh;
+        background: rgb(0, 98, 255);
+        padding: 10px 50px;
+    }
+    .Content1 .Content{
+        justify-content:center;
+    }
+    .Content1 .Content img{
+        top: 30%;
+        position: absolute;
+        max-width: 280px;
+    }
+    .Content1 .Content div{
+        top: 20%;
+        margin-left: 0%;
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .Content2{
+        height: 100vh;   
+        padding: 0px 50px;
+    }
+    .Content2 .Content{
+        justify-content:center;
+    }
+    .Content2 .Content img{
+        top: 50%;
+        position: absolute;
+        max-width: 200px;
+    }
+    .Content2 .Content div{
+        top: 20%;
+        margin-left: 0%;
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .Content1::before{
+        height: 100px;
+    }
+    .Content3{
+        height: 120vh;
+        background: rgb(0, 98, 255);
+        padding: 10px 50px;
+    }
+    .Content3 .Content{
+        justify-content:center;
+    }
+    .Content3 .Content img{
+        top: 55%;
+        position: absolute;
+        max-width: 280px;
+    }
+    .Content3 .Content div{
+        top: 30%;
+        margin-left: 0%;
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .Content3 .Content div h1{
+        max-width: 600px;
+    }
+
+}
+@media screen and (max-width:   465px ){
+    .Content1 .Content div h1{
+        font-size: 2.5em;
+    }
+    .Content1 .Content div p{
+        font-size: 15px;
+    }   
+    .Content2 .Content div h1{
+        font-size: 2.5em;
+    }
+    .Content2 .Content div p{
+        font-size: 15px;
+    }   
+    .Content3 .Content div h1{
+        font-size: 2.5em;
+    }
+    .Content3 .Content div p{
+        font-size: 15px;
+    }
+}
+
+
+.modal {
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.hidden {
+    display: none;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 40px;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+@media(min-width:768px) {
+    .modal-content {
+        width: 60%;
+    }
+}
+
+.modal-content h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.modal-content .inputBox {
+    position: relative;
+}
+
+.modal-content .inputBox input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.modal-content .inputBox label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.hilang {
+    color: #000;
+}
+
+.modal-content input[type="submit"] {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.modal-content .inputBox input:focus~label,
+.modal-content .inputBox input:valid~label {
+    top: -20px;
+    left: 0;
+    color: #03a9f4;
+}
+
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+.close {
+    position: absolute;
+    top : 10%;
+    right : 5%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #e33434;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 28px;
+}

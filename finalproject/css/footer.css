@@ -1,0 +1,102 @@
+
+.Footer1 {
+    background:rgb(33, 32, 44);
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    padding: 50px 150px;
+}
+
+.Footer1 .content .image img {
+    color: white;
+    width: 7vh;
+}
+.Footer1 .content .image {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20%;
+    
+}
+
+.Footer1 .content .Text-content{
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0 11%;
+    color: white;
+}
+.Footer1 .content .Text-content p{
+    width: 30%;
+    height: 30%;   
+}
+
+.Footer2 {
+    display: flex;
+    position: relative;
+    align-items:center;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 16%;
+    color: white;
+}
+.Footer2 p {
+    height: 10%;
+    width: 17%;
+}
+.Footer2-content{
+    display: flex;
+    position: relative;
+    align-items:center;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 16%;
+}
+.Footer2-content a{
+    color: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+    width: 17%;
+    height: 10%;
+}
+.Footer2-content a:hover {
+    color:white;
+}
+@media screen and (max-width:   1100px ){
+.Footer1{
+    font-size: 13px;
+}
+}
+@media screen and (max-width:   950px ){
+    .Footer1{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:   800px ){
+    .Footer1{
+        font-size: 0.6em;
+        padding: 100px 100px;
+        height: 80vh;
+    }
+    .Footer1 .content .image {
+        position: relative;
+        display: flex;
+        align-items: none;
+        justify-content: none;
+
+    }
+    .Footer1 .content .image img {
+        color: white;
+        width: 8vh;
+    }
+    .Footer1 .content .Text-content{
+        width: 100%;
+        margin: 0 11%;
+        color: white;
+    }
+    .Footer1 .content .Text-content p{
+        text-decoration:none;
+
+    }   
+}
